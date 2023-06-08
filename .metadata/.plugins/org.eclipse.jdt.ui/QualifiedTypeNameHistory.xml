@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="aula_21092022.ClasseCarro"/>
+    <fullyQualifiedTypeName name="br.com.turma.modelo.ClasseCarro"/>
+    <fullyQualifiedTypeName name="aula_21092022.ClasseVendedor"/>
+    <fullyQualifiedTypeName name="br.com.turma.modelo.VendedorN1"/>
+    <fullyQualifiedTypeName name="br.com.turma.modelo.VendedorN2"/>
+    <fullyQualifiedTypeName name="br.com.turma.modelo.ClasseGerente"/>
+    <fullyQualifiedTypeName name="br.com.turma.modelo.ClasseVenda"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
+    <fullyQualifiedTypeName name="br.com.turma.modelo.VendedorN3"/>
+    <fullyQualifiedTypeName name="br.com.erdna.herancas.ClasseHGenericos"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="br.com.projeto.cspclasse.Cliente"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.projeto.cspclasse.Musica"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="br.com.turma.model.UsuarioDao"/>
+    <fullyQualifiedTypeName name="br.com.turma.model.Usuario"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+</qualifiedTypeNameHistroy>

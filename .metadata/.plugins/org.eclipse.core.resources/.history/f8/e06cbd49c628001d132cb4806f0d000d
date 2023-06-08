@@ -1,0 +1,10 @@
+package aula_30082022; 
+
+class ClasseCarro {
+	
+	// atributo ou propropiedade
+	String marca;
+	String modelo;
+	String cor;
+	
+}

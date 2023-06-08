@@ -1,0 +1,15 @@
+package aula_14092022;
+
+public class testeMetodoMain {
+
+	public static void main(String[] args) {
+		
+		for(String nome:args) {
+			
+			System.out.println("nome: " + nome);
+			
+		}
+
+	}
+
+}

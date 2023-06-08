@@ -1,0 +1,9 @@
+package teste;
+
+public class classe1 {
+	
+	double a = 10;
+	double b = 5;
+	double c = a/b;
+	
+}

@@ -1,0 +1,7 @@
+package aula_30082022;
+
+public class ClasseSegCarro {
+	String marca2;
+	String modelo2;
+	String cor2;
+}

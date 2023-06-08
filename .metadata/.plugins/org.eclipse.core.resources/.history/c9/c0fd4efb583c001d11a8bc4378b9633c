@@ -1,0 +1,69 @@
+package pooavancado;
+
+public class ClasseCarro {
+		
+	private String marca;
+	private String modelo;
+	private String cor;
+	private int km;
+	private int quantidade;
+	private double preco;
+	private double impostos;
+	
+	public String getMarca() {
+		return marca;
+	}
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	public String getModelo() {
+		return modelo;
+	}
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	public String getCor() {
+		return cor;
+	}
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+	public int getKm() {
+		return km;
+	}
+	public void setKm(int km) {
+		this.km = km;
+	}
+	public int getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	public double getPreco() {
+		return preco;
+	}
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	public double getImpostos() {
+		return impostos;
+	}
+	public void setImpostos(double impostos) {
+		this.impostos = impostos;
+	}
+	
+	public ClasseCarro(String marca, String modelo, String cor, int km, int quantidade, double preco, double impostos) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.cor = cor;
+		this.km = km;
+		this.quantidade = quantidade;
+		this.preco = preco;
+		this.impostos = impostos;
+	}
+	
+	
+	
+}

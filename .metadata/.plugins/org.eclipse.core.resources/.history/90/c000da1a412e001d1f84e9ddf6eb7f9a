@@ -1,0 +1,75 @@
+package aula_31082022;
+
+public class ClasseCarro {
+		
+		public String marca;
+		
+		// getters(pegar dados) e setters (inserir dados no objeto) 
+		
+		public void setMarca (String marca) {
+				this.marca = marca;
+		}
+		
+		public String getMarca() {
+			return marca;
+		}
+		
+		
+		/*
+		String modelo;
+		String cor;
+		int km;
+		int capacidadeTanque;
+		int kmPorLitro;
+		double preco;
+		double valorComDesconto;
+		
+		// método
+		int caucularKm() {
+			
+			return this.capacidadeTanque * this.kmPorLitro;
+			
+		}
+		
+		double calcDesconto(double percentualDescontoVendedor) {
+
+			
+			if(percentualDescontoVendedor>=0 && percentualDescontoVendedor<4) {
+				return this.preco * (percentualDescontoVendedor/100);
+			} else if (percentualDescontoVendedor<0) {
+				return 0.0;	
+			} else {				
+				return this.preco * 0.04;
+			}
+			
+		}
+		
+		double calcDesconto(double percentualDescontoVendedor, double percentualDescontoGerente) {
+			
+			//alterar o percentual se a venda for menor que 0 ou maior que 4
+			if (percentualDescontoVendedor<0) {
+				percentualDescontoVendedor = 0;
+			} else if (percentualDescontoVendedor>4) {
+				percentualDescontoGerente = 4;
+			}
+			
+			//alterar o percentual se a venda for menor que 0 ou maior que 2
+			
+			if (percentualDescontoGerente<0) {
+				
+				percentualDescontoGerente = 0;
+				
+			}else if (percentualDescontoGerente>2) {
+				
+				percentualDescontoGerente = 2;
+				
+			}
+			
+			double desconto = this.preco * ((percentualDescontoVendedor/100 + percentualDescontoGerente/100)); 
+			this.valorComDesconto = this.preco - desconto;
+			return desconto;
+			
+		}
+		*/
+}		
+		

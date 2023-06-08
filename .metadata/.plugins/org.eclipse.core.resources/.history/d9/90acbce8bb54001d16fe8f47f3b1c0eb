@@ -1,0 +1,28 @@
+package br.com.turma.exception;
+
+public class TesteTratamentoExcecao {
+
+	public static void main(String[] args) {
+
+		
+			System.out.println("Início do método main...");
+			metodo1();
+			System.out.println("Fim do método main...");
+		}
+
+		public static void metodo1() {
+			System.out.println("Início do método1...");
+			metodo2();
+			System.out.println("Fim do método1...");
+		}
+		
+		public static void metodo2() {
+			System.out.println("Início do método2...");
+			for(int i=0;i<=5;i++) {
+				System.out.println(i);
+			}
+			System.out.println("Fim do método2...");
+		}
+	}
+
+

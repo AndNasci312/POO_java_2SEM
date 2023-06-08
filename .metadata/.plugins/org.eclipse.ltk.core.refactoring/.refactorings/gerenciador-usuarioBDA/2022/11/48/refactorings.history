@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;gerenciador-usuarioFRONT/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;gerenciador-usuarioBDA&apos;&#x0D;&#x0A;- Destination element: &apos;gerenciador-usuarioFRONT/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     gerenciador-usuarioBDA/src/br.com.turma.model&#x0D;&#x0A;     gerenciador-usuarioBDA/src/br.com.turma.teste" description="Copy packages" destination="=gerenciador-usuarioFRONT/src\/main\/java" element1="/src&lt;br.com.turma.model" element2="/src&lt;br.com.turma.teste" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1669159833696" version="1.0"/>
+</session>

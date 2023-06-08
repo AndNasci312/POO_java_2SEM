@@ -1,0 +1,35 @@
+package br.com.turma.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.turma.model.Usuario;
+import br.com.turma.model.UsuarioDao;
+
+@WebServlet("/portal")
+public class PortalServlet extends HttpServlet {
+		
+	// ctrl + espaço + service + primeira opção
+	
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		String nome = request.getParameter("txtnome");
+		String log = request.getParameter("txtlogin");
+		String senha = request.getParameter("txtsenha");
+		
+		Usuario user = new Usuario(nome,log,senha);
+		
+		UsuarioDao dao = new UsuarioDao();
+		user.cadastrar(dao);
+		
+		
+		// http://localhost:8080/gerenciador-usuario/formcadastro.html
+		
+	}
+}

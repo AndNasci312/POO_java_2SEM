@@ -1,0 +1,83 @@
+package aula_31082022;
+
+public class ObjetoCarro {
+
+	public static void main(String[] args) {
+		
+		// alt, shift e r / alt + setinha do teclado
+		
+		ClasseCarro nCarro = new ClasseCarro();
+		nCarro.setMarca("vw");
+		
+		//System.out.println("essa é a marca" + nCarro.marca);
+		
+		/*
+		nCarro.modelo = "fox";
+		nCarro.cor = "azul";
+		nCarro.km = 15560;
+		nCarro.capacidadeTanque = 40;
+		nCarro.kmPorLitro = 10;
+		nCarro.preco = 10000;
+		
+		
+		System.out.println("DADOS DO CARRO 1");
+		System.out.println("--------------------------");
+		System.out.println("marca: " + nCarro.marca);
+		System.out.println("modelo: " + nCarro.modelo);
+		System.out.println("cor: " + nCarro.cor);
+		System.out.println("Km: " + nCarro.km);
+		System.out.println("rodagem do veículo: " + nCarro.caucularKm());
+		System.out.println("preço: " + nCarro.preco);
+		System.out.println("desconto: " + nCarro.calcDesconto(2.5));
+		System.out.println("valor com desconto: " + nCarro.valorComDesconto);
+		System.out.println(" ");
+		
+		//---------------------------------------------------------------------
+		
+		ClasseCarro nCarro2 = new ClasseCarro();
+		nCarro2.marca = "fiat";
+		nCarro2.modelo = "palio";
+		nCarro2.cor = "prata";
+		nCarro2.km = 0;
+		nCarro2.capacidadeTanque = 30;
+		nCarro2.kmPorLitro = 15;
+		nCarro2.preco = 15.000;
+		
+		System.out.println("DADOS DO CARRO 2");
+		System.out.println("--------------------------");
+		System.out.println("marca: " + nCarro2.marca);
+		System.out.println("modelo: " + nCarro2.modelo);
+		System.out.println("cor: " + nCarro2.cor);
+		System.out.println("Km: " + nCarro2.km);
+		System.out.println("rodagem do veículo: " + nCarro2.caucularKm());
+		System.out.println("preço: " + nCarro2.preco);
+		System.out.println("desconto: " + nCarro.calcDesconto(4.5));
+		System.out.println("valor com desconto: " + nCarro2.valorComDesconto);
+		System.out.println(" ");
+		
+		//------------------------------------------------------------------------
+		
+		ClasseCarro nCarro3 = new ClasseCarro();
+		nCarro3.marca = "toyota";
+		nCarro3.modelo = "corolla";
+		nCarro3.cor = "vermelho";
+		nCarro3.km = 293450;
+		nCarro3.capacidadeTanque = 50;
+		nCarro3.kmPorLitro = 12;
+		nCarro3.preco = 20.000;
+		
+		System.out.println("DADOS DO CARRO 3");
+		System.out.println("--------------------------");
+		System.out.println("marca: " + nCarro3.marca);
+		System.out.println("modelo: " + nCarro3.modelo);
+		System.out.println("cor: " + nCarro3.cor);
+		System.out.println("Km: " + nCarro3.km);
+		System.out.println("rodagem do veículo: " + nCarro3.caucularKm());
+		System.out.println("preço: " + nCarro3.preco);
+		System.out.println("desconto: " + nCarro.calcDesconto(1.5));
+		System.out.println("valor com desconto: " + nCarro3.valorComDesconto);
+		System.out.println(" ");
+		*/
+	}
+
+}

@@ -1,0 +1,5 @@
+package br.com.turma.model;
+
+public class Usuario {
+
+}

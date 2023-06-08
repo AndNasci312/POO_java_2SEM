@@ -1,0 +1,10 @@
+package aula_14092022;
+
+public class testeMetodoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

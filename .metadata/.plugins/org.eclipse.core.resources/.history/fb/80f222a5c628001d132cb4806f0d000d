@@ -1,0 +1,16 @@
+package aula_30082022; 
+
+class ClasseCarro {
+	
+	// atributo ou propiedade
+	String marca;
+	String modelo;
+	String cor;
+	double preco;
+	
+	// método (o que é para ser feito)
+	double caucularReajuste() {
+		return preco * 1.55;
+	}
+	
+}
